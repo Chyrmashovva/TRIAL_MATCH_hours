@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* section{
+    margin-top: 200px;
+} */
+
+body{
+    height: 100%;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 970px){
+    /* .container{
+        max-width: 720px;
+    } */
+    .skin__img {
+        position: absolute;
+        top: 150px;
+        left: 170px;
+        }
+        .skin__description {
+            position: absolute;
+            top: 350px;
+            left: 170px;
+            }
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .row{
+        justify-content: center;
+    }
+    .row-1{
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 100%;
+    }
+   
+}
+@media screen and (max-width: 500px){
+    
+    .col-2 p{
+        position: absolute;
+        top: 480px;
+        left: 32px;
+    }
+    .item-price {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        /* margin: 10px; */
+    }
+    .home-2 img{
+        height: 100vh;
+    }
+    .home__link{
+        margin: 0;
+        padding: 10px ;
+        font-size: 0;
+    }
+    
+    .reviews__text {
+        position: absolute;
+        left: -90px;
+        top: 350px;
+    }
+    .col-2__h1{
+        transform: translate(-100px, -50px);
+        text-align: center;
+        width: 50px;
+    }
+    .home__img{
+        width: 20%;
+        transform: translate(-170px, 200px);
+
+    }
+    .lkg{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .home__link{
+        margin: 0;
+        padding: 0 15px;
+        font-size: 0;
+    }
+    .container{
+        max-width: 100%;
+
+    }
+    .home__img{
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .container{
+        max-width: 100%;
+
+    }
+}

@@ -1,0 +1,72 @@
+
+.reviews{
+    width: 100%;
+    position: absolute;
+    left: 110px;
+    top: -300px;
+    &__h1{
+        color: #000 ;
+        position: absolute;
+        left: 15px;
+        top: 150px;
+        font-size: 45px;
+        width: 450px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    &__icon{
+        color: #FFEB3B;
+        margin-top: 10px;
+    }
+    p{
+        margin-bottom: 25px;
+        color: #555555;
+    font-family: Open Sans ,Arial!important;
+    font-weight: 300!important;
+    font-style: normal!important;
+    font-size: 13px!important;
+    line-height: 140%!important;
+    letter-spacing: 0px!important;
+    }
+    h3{
+        color: #555555;
+       font-family:  Montserrat,Arial!important;
+    font-weight: 700!important;
+    font-style: normal!important;
+    font-size: 20px!important;
+    line-height: 140%!important;
+    letter-spacing: 0px!important;
+    }
+    img{
+        display: block;
+        object-fit: cover;
+        width: 150px;
+        height: 150px;
+        flex: 1 1 150px;
+    margin-right: 48px;
+    border-radius: 150px;
+    overflow: hidden;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    position: relative;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEB3B;
+    color: #FFFFFF;
+    }
+    &__text{
+       
+        &-position{
+            display:flex;
+            margin: 90px 0px;
+        }
+        position: absolute;
+        top: 350px;
+        width: 80%;
+    }
+}
